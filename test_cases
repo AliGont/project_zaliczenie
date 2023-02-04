@@ -1,0 +1,70 @@
+T01 - Login to app using correct credentials
+
+Preconditions:
+App is open.
+The user has an account in the app.
+The user is not logged in.
+
+1. Click "Account" in the lower right corner.
+2. Click "Sign in/Register" button.
+3. Select "Sign in" tab.
+4. Enter a valid email address in the email address input field.
+5. Enter a valid password in the password input field.
+6. Click "Sign in" button.
+7. Check if "Welcome back!" popup is visible.
+
+Expected results:
+The user has successfully logged in.
+
+
+T02 - Login to app using incorrect credentials
+
+Preconditions:
+App is open.
+The user has an account in the app.
+The user is not logged in.
+
+1. Click "Account" in the lower right corner.
+2. Click "Sign in/Register" button.
+3. Select "Sign in" tab.
+4. Enter a valid email address in the email address input field.
+5. Enter wrong password in the password input field.
+6. Click "Sign in" button.
+7. Check if incorrect credential error is visible.
+
+Expected results:
+Error message is visible. The user has not logged in.
+
+
+T03 - Add three of the same products to the cat and check correctness of total price
+
+Preconditions:
+The cart is empty.
+
+Step to reproduce:
+1. Go to "Swimwear" section on home page.
+2. Add one product to the cart.
+3. Go to "Cart".
+4. Add two more of the same products.
+5. Check if three of the same products were added to the cart.
+6. Check if Estimated Total amount is equal to Total amount.
+
+Expected results:
+Three of the same products were added to the cart. Estimated Total amount is equal to Total amount.
+
+T04 - Add and remove product to/from the cart
+
+Preconditions:
+The cart is empty.
+
+Step to reproduce:
+1. Go to "Swimwear" section on home page.
+2. Add one product to the cart.
+3. Go to "Cart".
+4. Remove previously added product to the cart.
+5. Check if cart is empty.
+
+Expected results:
+The cart is empty, empty cart image is visible.
+
+
